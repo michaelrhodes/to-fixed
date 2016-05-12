@@ -9,9 +9,10 @@ test('it expects numbers', function (assert) {
 })
 
 test('it works', function (assert) {
-  assert.plan(4)
+  assert.plan(5)
   assert.equal(fixed(0.12, 2), 0.12)
   assert.equal(fixed(0.0000123, 2), 0.000012)
   assert.equal(fixed(1.2345, 1), 1.2)
   assert.equal(fixed(1.2, 10), 1.2)
+  assert.equal(fixed(1.1, 0), 1)
 })
