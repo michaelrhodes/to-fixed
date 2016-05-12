@@ -1,6 +1,6 @@
 {
   "name": "to-fixed",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "convert a float into a fixed-point number containing x positive integers",
   "main": "index.js",
   "devDependencies": {
