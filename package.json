@@ -1,0 +1,27 @@
+{
+  "name": "to-fixed",
+  "version": "0.0.0",
+  "description": "convert a float into a fixed-point number containing x positive integers",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "~4.5.1"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrhodes/to-fixed"
+  },
+  "keywords": [
+    "float",
+    "fixed-point",
+    "positive"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/to-fixed/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/to-fixed"
+}
